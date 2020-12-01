@@ -1,0 +1,166 @@
+/*CSS style */
+body {
+  background-color: black;
+  margin: 0px;
+  color: #eeeeee;
+  background-color: black;
+  font-weight: bold;
+  font-family: Helvetica;
+  font-size: 20px;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.nav-container {
+  background-color: black;
+  position: fixed;
+  top: 0px;
+  margin-top: 0px;
+  width: 100%;
+  height: 70px;
+  padding-left: 20px;
+  float: left;
+  clear: right;
+}
+
+.nav {
+height: 100%;
+padding: 0px;
+margin: 0px;
+
+
+}
+.button {
+  color: #eeeeee;
+  background-color: black;
+  font-weight: bold;
+  font-family: Helvetica;
+  font-size: 20px;
+  height: 100%;
+  width: 20%;
+  border: none;
+  float: left;
+  list-style: none;
+  padding: 25px 0px;
+
+}
+
+
+#titolo {
+  color: red;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Helvetica;
+  padding: 15px 0px;
+}
+
+#login {
+  text-align: center;
+  color: #ffffff;
+  background-color: red;
+  float: right;
+  width: 100px;
+  padding: 25px 0px;
+  text-decoration: none;
+
+
+
+}
+
+.container-title {
+  margin: 10px;
+  padding-left: 5px;
+  font-size: 25px;
+}
+.container-1{
+  margin-top: 70px;
+  width: 100%;
+  float: left;
+}
+.container-2 {
+  float: left;
+  clear: both;
+
+}
+
+.container-3 > p {
+  width: 50%;
+  float: left;
+  padding: 10px;
+
+}
+
+section {
+  clear:both;
+}
+
+@media (min-width: 1600px) {
+  .col-lg-6{
+    float: left;
+    width: 16.66%;
+  }
+  .col-lg-6 > p{
+    height: 500px;
+    margin-left: 16px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+  .col-lg-4 {
+    float: left;
+    width: 25%;
+  }
+  .col-lg-4 > p{
+    height: 400px;
+    margin-left: 16px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+  .col-md-2 {
+    float: left;
+    width: 50%;
+  }
+  .col-md-2 > p {
+    height: 550px;
+    margin-left: 16px;
+  }
+  .titolo {
+    text-align: center;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 991px){
+  .col-xs-1 {
+    width: 100%;
+  }
+  .col-xs-1 > p {
+    height: 700px;
+    margin-left: 16px;
+  }
+  #titolo {
+    font-size: 30px;
+    padding-top: 25px;
+  }
+}
+
+
+/*******login page style**********/
+
+.container-login-page {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+
+}
+
+.username-box, .password-box{
+  text-align: center;
+  width: 300px;
+  background-color: white;
+  position: relative;
+  align-items: center;
+
+}

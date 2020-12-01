@@ -1,0 +1,16 @@
+
+
+<div class="nav">
+
+    <div class="left-side">
+
+      <p id="titolo">NETFLIX</p>
+      <p class="button">TV Series</p>
+      <p class="button">Film</p>
+      <p class="button">My List</p>
+    </div>
+    <div class="right-side">
+      <p id="login">Accedi</p>
+    </div>
+
+</div>
