@@ -54,6 +54,7 @@ margin: 0px;
   font-weight: bold;
   font-family: Helvetica;
   padding: 15px 0px;
+  text-decoration: none;
 }
 
 #login {
@@ -153,14 +154,27 @@ section {
   width: 100%;
   height: 100%;
   text-align: center;
+  float: left;
+  margin-top: 20px;
 
 }
 
-.username-box, .password-box{
+.box {
+  float: left;
+  width: 33.33%;
+  color: black;
   text-align: center;
-  width: 300px;
-  background-color: white;
-  position: relative;
-  align-items: center;
+}
 
+#box-title {
+  color: white;
+}
+
+.username-box, .password-box{
+  color: #999999;
+  text-align: center;
+  background-color: white;
+  float: left;
+  width: 33.33%;
+  overflow: hidden;
 }
