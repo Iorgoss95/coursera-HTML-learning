@@ -1,0 +1,86 @@
+/*CSS style */
+body {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Comic Sans MS, Helvetica;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.container {
+  width: 100%;
+}
+
+section {
+  position: relative;
+}
+
+p {
+  background-color: rgba(139, 146, 150, 0.68);
+  border: solid 2px black;
+  padding: 25px;
+  padding-top: 40px;
+  position: relative;
+  margin: 10px;
+
+}
+
+.title {
+  text-align: center;
+  font-size: 1.75em;
+  padding: 70px;
+}
+
+p > span{
+  border-bottom: solid 2px black;
+  border-left: solid 2px black;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 2px 25px;
+  clear: right;
+  font-size: 1.25em;
+
+}
+
+#menu-chicken {
+  background-color: rgba(249, 157, 157, 0.61);
+
+}
+
+#menu-beef {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+#menu-sushi {
+  background-color: rgba(234, 210, 134, 0.75);
+}
+
+/*****Media queries for responsive design*****/
+
+@media (min-width: 992px) {
+  .col-md-4 {
+    float: left;
+    width: 33.3%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  .col-md-6 {
+    float:left;
+    width: 50%;
+  }
+  #third-section {
+    width: 100%;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 767px){
+  .col-sm-12 {
+    float: left;
+    width: 100%;
+  }
+}
