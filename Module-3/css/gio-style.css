@@ -1,0 +1,132 @@
+/*CSS style */
+body {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Comic Sans MS, Helvetica;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+/*old style*/
+section {
+  position: relative;
+
+}
+
+
+p {
+  background-color: rgba(139, 146, 150, 0.68);
+  border: solid 2px black;
+  padding: 25px;
+  padding-top: 45px;
+  position: relative;
+
+
+}
+
+.navbar {
+  border-bottom: 2px solid black;
+}
+
+.navbar button.navbar-toggler {
+  border: 2px solid black;
+}
+
+
+.navbar-brand {
+  font-size: 1.8em;
+}
+.title {
+  padding: 60px;
+  font-size: 1.75em;
+
+}
+
+p > span{
+  border-bottom: solid 2px black;
+  border-left: solid 2px black;
+  border-right: solid 2px black;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  margin-left: -52px;
+  clear: right;
+  font-size: 1.25em;
+  padding: 2px 5px;
+}
+
+/*
+h3 {
+  border-bottom: solid 2px black;
+  border-left: solid 2px black;
+  border-right: solid 2px black;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  margin-left: -52px;
+  clear: right;
+  font-size: 1.5em;
+  padding: 2px 5px;
+}
+*/
+
+
+#menu-chicken {
+  background-color: rgba(249, 157, 157, 0.61);
+
+}
+
+#menu-beef {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+#menu-sushi {
+  background-color: rgba(234, 210, 134, 0.75);
+}
+
+.navbar {
+  background-color: rgba(139, 146, 150, 0.68);
+}
+
+.nav-item {
+  text-align: center;
+}
+
+.back-to-top {
+  color: rgba(24, 77, 202, 0.77);
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+
+}
+/*****Media queries for responsive design*****/
+
+@media (min-width: 992px) {
+    .navbar-nav {
+    visibility: hidden;
+  }
+}
+
+/*
+
+@media (min-width: 768px) and (max-width: 991px){
+  .col-md-6 {
+    float:left;
+    width: 50%;
+  }
+  #third-section {
+    width: 100%;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 767px){
+  .col-sm-12 {
+    float: left;
+    width: 100%;
+  }
+}
+*/
