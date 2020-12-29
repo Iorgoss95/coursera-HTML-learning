@@ -1,5 +1,6 @@
 $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 
+console.log(chosenCategoryShortName);
   // Same as document.querySelector("#navbarToggle").addEventListener("blur",...
   $("#navbarToggle").blur(function (event) {
     var screenWidth = window.innerWidth;
@@ -61,6 +62,7 @@ var switchMenuToActive = function () {
 
 // On page load (before images or CSS)
 document.addEventListener("DOMContentLoaded", function (event) {
+  console.log(chosenCategoryShortName);
 
 // TODO: STEP 0: Look over the code from
 // *** start ***
@@ -136,7 +138,6 @@ function chooseRandomCategory (categories) {
   // Choose a random index into the array (from 0 inclusively until array length (exclusively))
   var randomArrayIndex = Math.floor(Math.random() * categories.length);
 
-console.log(chosenCategoryShortName);
   // return category object with that randomArrayIndex
   return categories[randomArrayIndex];
 }
