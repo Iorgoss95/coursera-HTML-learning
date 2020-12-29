@@ -1,6 +1,7 @@
 $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 
-console.log(chosenCategoryShortName);
+console.log(chooseRandomCategory);
+
   // Same as document.querySelector("#navbarToggle").addEventListener("blur",...
   $("#navbarToggle").blur(function (event) {
     var screenWidth = window.innerWidth;
@@ -62,7 +63,7 @@ var switchMenuToActive = function () {
 
 // On page load (before images or CSS)
 document.addEventListener("DOMContentLoaded", function (event) {
-  console.log(chosenCategoryShortName);
+  console.log(chooseRandomCategory);
 
 // TODO: STEP 0: Look over the code from
 // *** start ***
@@ -119,7 +120,7 @@ function buildAndShowHomeHTML (categories) {
       //
 
 
-      var html = insertProperty(html, "randomCategoryShortName", chosenCategoryShortName);
+      var html = insertProperty(html, "randomCategoryShortName", chooseRandomCategory);
 
 
       // TODO: STEP 4: Insert the the produced HTML in STEP 3 into the main page
