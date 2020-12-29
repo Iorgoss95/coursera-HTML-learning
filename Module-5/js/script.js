@@ -1,7 +1,5 @@
 $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 
-console.log(chooseRandomCategory);
-
   // Same as document.querySelector("#navbarToggle").addEventListener("blur",...
   $("#navbarToggle").blur(function (event) {
     var screenWidth = window.innerWidth;
@@ -63,7 +61,7 @@ var switchMenuToActive = function () {
 
 // On page load (before images or CSS)
 document.addEventListener("DOMContentLoaded", function (event) {
-  console.log(chooseRandomCategory);
+
 
 // TODO: STEP 0: Look over the code from
 // *** start ***
@@ -103,8 +101,9 @@ function buildAndShowHomeHTML (categories) {
       // TODO: STEP 2: Here, call chooseRandomCategory, passing it retrieved 'categories'
       // Pay attention to what type of data that function returns vs what the chosenCategoryShortName
       // variable's name implies it expects.
-      var chosenCategoryShortName = chooseRandomCategory(categories); //array!
-
+      var chosenCategoryShortName = chooseRandomCategory(categories); //value
+console.log("1" + chooseRandomCategory);
+console.log("2" + chosenCategoryShortName);
 
       // TODO: STEP 3: Substitute {{randomCategoryShortName}} in the home html snippet with the
       // chosen category from STEP 2. Use existing insertProperty function for that purpose.
