@@ -44,6 +44,8 @@ var insertProperty = function (string, propName, propValue) {
   return string;
 }
 
+//replace(new RegExp(propToReplace, "g"), propValue);
+
 // Remove the class 'active' from home and switch to Menu button
 var switchMenuToActive = function () {
   // Remove 'active' from home button
